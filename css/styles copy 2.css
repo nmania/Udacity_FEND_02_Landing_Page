@@ -104,7 +104,6 @@ section {
     z-index: 5;
 }
 
-
 /* Footer Styles */
 .page__footer {
     background: #000;
@@ -142,7 +141,6 @@ section:nth-of-type(even) .landing__container {
     margin-left: auto;
     text-align: right; 
 }
-
 
 /* Background Circles */
 /* Note that background circles are created with psuedo elements before and after */
@@ -208,6 +206,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* ---- Theme State Rules ---- */
 /* Section Active Styles */
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
+
 section.your-active-class {
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(219, 250, 191, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
@@ -226,7 +225,6 @@ section.your-active-class .landing__container::after {
     animation: rotate 5s linear 0s infinite forwards reverse;
 }
 
-
 /* Section Active Styles Keyframe Animations */
 @keyframes rotate {
 	from {
@@ -241,34 +239,32 @@ section.your-active-class .landing__container::after {
 	}
 }
 
+/* Back to top button */
 
-/* page top button */
-.top__button {
-    transition: all .25s ease-in-out;
-    position: fixed;
-    bottom: 5px;
-    right: -50px;
-    display: inline-flex;
+#page_top {
     width: 50px;
-	height: 50px;
-	align-items: center;
-    justify-content: center;
-    cursor: pointer;
-	margin: 0 3em 1em 0;
-	padding: .25em;
-    background-color: rgba(247, 37, 133, 0.7);
-    color: #fff;
+    height: 50px;
+    position: fixed;
+    right: -50px;
+    bottom: 5px;
+    background: #f72585;
+    opacity: 0.6;
+}
+
+#page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
     text-decoration: none;
+
 }
 
-.top__button:hover {
-	background-color: rgba(58, 50, 50, 0.7);
-}
-
-.show {
-    visibility: visible;
-}
-  
-.hide {
-    visibility: hidden;
+#page_top a::before {
+    color: #fff;
+    border-top: solid 4px #fff;
+    border-left: solid 4px #fff;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
 }

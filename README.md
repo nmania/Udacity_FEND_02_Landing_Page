@@ -2,7 +2,7 @@
 
 ## Landing Page Link
 
-* [Link](https://yukariim8.github.io/Udacity_FEND_02_Landing_Page/)
+* [View Landing Page](https://yukariim8.github.io/Udacity_FEND_02_Landing_Page/)
 
 ![Landing Page](./image/image.JPG?raw=true "Landing Page")
 

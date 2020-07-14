@@ -29,6 +29,8 @@ To get started, open `js/app.js` and start building out the app's functionality
 
   ```sh
   ├── README.md
+  ├── image
+  │   └── image.JPG
   ├── index.html
   ├── css
   │   └── style.css

@@ -7,7 +7,7 @@
 ![Landing Page](./image/image.JPG?raw=true "Landing Page")
 
 ## Overview
-This project required me to improve the user experience of a static multi-section landing page, with manipulating DOM using JavaScript. To improve the user experience, I implemented the following requirements. All features are usable across modern desktop, tablet, and phone browsers.
+This project required me to improve the user experience of a static multi-section landing page, with manipulating DOM using JavaScript. To improve the user experience, I implemented the following requirements. All features are usable across modern desktop, tablet, and phone browsers. This hands-on project is part of the Udacity Front End Web Developer Nano Degree Program.
 
 1. The navigation menu should be dynamically created based on the number of content added to the page.
 2. The section actively being viewed should be differentiated in some way. 
